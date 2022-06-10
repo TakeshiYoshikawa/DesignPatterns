@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Tests", "Des
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{A41F9F35-2850-4E7A-8DC8-2EFF1D086433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{77AA362A-6ACB-4C7D-B278-1AB83E6084CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AA362A-6ACB-4C7D-B278-1AB83E6084CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AA362A-6ACB-4C7D-B278-1AB83E6084CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AA362A-6ACB-4C7D-B278-1AB83E6084CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AA362A-6ACB-4C7D-B278-1AB83E6084CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{B7A37A64-FE3B-49F9-AA90-C522C931D6D2} = {0CF766F9-3B30-48C6-8B32-BEF3015B6F57}
 		{A41F9F35-2850-4E7A-8DC8-2EFF1D086433} = {73477EEF-3C58-40BD-AC64-E69607D9247A}
 		{7A40FBD4-460A-4C0C-B3B9-15AB5EDB9829} = {FA8812B6-63A0-4F48-A988-AC814D0C7680}
+		{77AA362A-6ACB-4C7D-B278-1AB83E6084CE} = {F3F565E1-F274-4343-91E3-52B575EED7F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F20C1D98-3D0F-481E-A4D3-32AEDF412B92}
