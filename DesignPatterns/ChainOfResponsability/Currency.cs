@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ChainOfResponsability
+{
+    public class Currency
+    {
+        public int Amount { get; private set; }
+
+        public Currency(int amount)
+        {
+            Amount = amount;
+        }
+    }
+}
